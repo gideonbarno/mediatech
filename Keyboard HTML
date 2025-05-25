@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Instruments</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .item {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 300px;
+            padding: 15px;
+            text-align: center;
+        }
+        .item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .item h3 {
+            margin-top: 10px;
+        }
+        .contact {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Keyboard World</h1>
+    <p>Your #1 Source for Musical Instruments</p>
+</header>
+
+<div class="container">
+    <section class="product">
+        <div class="item">
+            <img src="https://via.placeholder.com/300x200.png?text=Yamaha+PSR-E373" alt="Yamaha PSR-E373">
+            <h3>Yamaha PSR-E373</h3>
+            <p>61-key portable keyboard with hundreds of sounds and rhythms.</p>
+        </div>
+
+        <div class="item">
+            <img src="https://via.placeholder.com/300x200.png?text=Casio+CT-X700" alt="Casio CT-X700">
+            <h3>Casio CT-X700</h3>
+            <p>High-quality sound engine and built-in learning tools for beginners.</p>
+        </div>
+
+        <div class="item">
+            <img src="https://via.placeholder.com/300x200.png?text=Roland+GO:KEYS" alt="Roland GO:KEYS">
+            <h3>Roland GO:KEYS</h3>
+            <p>Compact, fun, and easy-to-use keyboard with Bluetooth support.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    &copy; 2025 Keyboard World. All rights reserved.
+</footer>
+
+</body>
+</html>
